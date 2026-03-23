@@ -1,0 +1,28 @@
+name: Scheduled Content Publication
+
+on:
+  schedule:
+      - cron: '30 9 * * *' # Every day at 9:30 AM UTC (after generation)
+        workflow_dispatch:
+
+        jobs:
+          publish:
+              runs-on: ubuntu-latest
+                  steps:
+                        - name: Checkout code
+                                uses: actions/checkout@v4
+
+                                      - name: Set up Python
+                                              uses: actions/setup-python@v4
+                                                      with:
+                                                                python-version: '3.10'
+
+                                                                      - name: Install dependencies
+                                                                              run: pip install -r requirements.txt
+
+                                                                                    - name: Run publisher
+                                                                                            env:
+                                                                                                      DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+                                                                                                                META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+                                                                                                                        run: python src/publisher.py
+                                                                                                                        
