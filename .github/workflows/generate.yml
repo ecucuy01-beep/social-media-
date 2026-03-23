@@ -8,8 +8,15 @@ on:
         
         on:
           schedule:
-              - cron: '0 9 * * *'name: Scheduled Content Generationname: Scheduled Content Generation
+              - cron: '0 9 * * *'name: Scheduled Content Generationname: Scheduled Content Generationname: Scheduled Content Generation
               on:
+                workflow_dispatch:
+                jobs:
+                  generate:
+                      runs-on: ubuntu-latest
+                          steps:
+                                - run: echo hello
+                                on:
                 schedule:
                     - cron: '0 9 * * *'
                       workflow_dispatch:
