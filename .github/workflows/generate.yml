@@ -3,8 +3,8 @@ name: Scheduled Content Generation
 on:
   schedule:
       - cron: '0 9 * * *' # Every day at 9 AM UTC
-        worlow_dispatch:
-
+        workflow_dispatch:
+        worlow_dispatch
         jobs:
           generate:
               runs-on: ubuntu-latest
