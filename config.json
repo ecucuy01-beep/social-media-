@@ -1,0 +1,64 @@
+{
+    "companies": [
+          {
+                  "client_id": "A1_Stop",
+                  "name": "A1-Stop Insurance Agency Inc.",
+                  "phone": "305-441-7100",
+                  "website": "insuranceladies.com",
+                  "focus_areas": ["Commercial", "Auto", "Home"],
+                  "keywords": ["Miami commercial insurance", "Florida auto insurance", "homeowners coverage"],
+                  "discord_webhook_url": "DISCORD_WEBHOOK_A1_STOP",
+                  "discord_channel_id": "DISCORD_CHANNEL_ID_A1_STOP",
+                  "fb_page_id": "FB_PAGE_ID_A1_STOP",
+                  "ig_account_id": "IG_ACCOUNT_ID_A1_STOP"
+          },
+          {
+                  "client_id": "Agency_2",
+                  "name": "Second Agency",
+                  "phone": "555-0102",
+                  "website": "agency2.com",
+                  "focus_areas": ["Life", "Health"],
+                  "keywords": ["life insurance", "health coverage"],
+                  "discord_webhook_url": "DISCORD_WEBHOOK_AGENCY_2",
+                  "discord_channel_id": "DISCORD_CHANNEL_ID_AGENCY_2",
+                  "fb_page_id": "FB_PAGE_ID_AGENCY_2",
+                  "ig_account_id": "IG_ACCOUNT_ID_AGENCY_2"
+          },
+          {
+                  "client_id": "Agency_3",
+                  "name": "Third Agency",
+                  "phone": "555-0103",
+                  "website": "agency3.com",
+                  "focus_areas": ["Marine", "Cargo"],
+                  "keywords": ["marine insurance", "cargo protection"],
+                  "discord_webhook_url": "DISCORD_WEBHOOK_AGENCY_3",
+                  "discord_channel_id": "DISCORD_CHANNEL_ID_AGENCY_3",
+                  "fb_page_id": "FB_PAGE_ID_AGENCY_3",
+                  "ig_account_id": "IG_ACCOUNT_ID_AGENCY_3"
+          },
+          {
+                  "client_id": "Agency_4",
+                  "name": "Fourth Agency",
+                  "phone": "555-0104",
+                  "website": "agency4.com",
+                  "focus_areas": ["Pet", "Travel"],
+                  "keywords": ["pet insurance", "travel coverage"],
+                  "discord_webhook_url": "DISCORD_WEBHOOK_AGENCY_4",
+                  "discord_channel_id": "DISCORD_CHANNEL_ID_AGENCY_4",
+                  "fb_page_id": "FB_PAGE_ID_AGENCY_4",
+                  "ig_account_id": "IG_ACCOUNT_ID_AGENCY_4"
+          },
+          {
+                  "client_id": "Agency_5",
+                  "name": "Fifth Agency",
+                  "phone": "555-0105",
+                  "website": "agency5.com",
+                  "focus_areas": ["Cyber", "Business"],
+                  "keywords": ["cyber insurance", "small business coverage"],
+                  "discord_webhook_url": "DISCORD_WEBHOOK_AGENCY_5",
+                  "discord_channel_id": "DISCORD_CHANNEL_ID_AGENCY_5",
+                  "fb_page_id": "FB_PAGE_ID_AGENCY_5",
+                  "ig_account_id": "IG_ACCOUNT_ID_AGENCY_5"
+          }
+    ]
+}
